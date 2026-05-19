@@ -1,0 +1,114 @@
+name: Process episodes
+
+# Trigger:
+#  - Daily at 03:00 KST (= 18:00 UTC previous day)
+#  - Manual dispatch with mode + limit inputs
+#
+# The job auto-commits any new/updated data/ files (manifest + episode JSONs).
+# Audio MP3s and whisper_raw.json caches are gitignored, so they never make it to
+# the repo — every workflow run re-downloads audio and re-runs WhisperX. That's
+# slow but correct, and means the repo stays small.
+#
+# GitHub Actions free tier caps a job at 6 hours. One episode is ~30 min of CPU
+# alignment, so we budget conservatively: daily defaults to --limit 5, manual
+# backfill must specify --limit explicitly.
+
+on:
+  schedule:
+    # 18:00 UTC = 03:00 KST next day
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Pipeline mode'
+        required: true
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - backfill
+          - retry
+      limit:
+        description: 'Max episodes this run (required for backfill; daily defaults to 5)'
+        required: false
+        default: ''
+      max_cost:
+        description: 'USD ceiling for Claude tagging (default 5.00)'
+        required: false
+        default: '5.00'
+
+permissions:
+  contents: write  # auto-commit data/ changes
+
+concurrency:
+  # Prevent two runs from racing on manifest.json
+  group: process-episodes
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    # Hard ceiling well under the 6h GitHub limit; one episode is ~30 min so this
+    # caps at ~10 episodes worst case.
+    timeout-minutes: 330
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          set -e
+          MODE="${{ github.event.inputs.mode || 'daily' }}"
+          LIMIT="${{ github.event.inputs.limit }}"
+          MAX_COST="${{ github.event.inputs.max_cost || '5.00' }}"
+
+          # Backfill requires an explicit --limit; bail loudly if missing.
+          if [ "$MODE" = "backfill" ] && [ -z "$LIMIT" ]; then
+            echo "ERROR: backfill mode requires --limit input."
+            exit 1
+          fi
+
+          ARGS=("$MODE" "--max-cost" "$MAX_COST")
+          if [ -n "$LIMIT" ]; then
+            ARGS+=("--limit" "$LIMIT")
+          fi
+
+          python -m src.main "${ARGS[@]}"
+
+      - name: Commit updated manifest + episode JSONs
+        # Always runs (even if pipeline returned non-zero) so partial progress is
+        # preserved. The pipeline itself catches per-episode failures and saves
+        # the manifest after every step.
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Stage only the data/ tree; never accidentally commit other artifacts.
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data/ changes to commit."
+            exit 0
+          fi
+          MODE="${{ github.event.inputs.mode || 'daily' }}"
+          git commit -m "Process episodes: $MODE run on $(date -u +%Y-%m-%d)"
+          git push

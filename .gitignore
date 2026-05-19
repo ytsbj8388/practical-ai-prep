@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Env
+.env
+
+# OS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Audio + raw Whisper outputs (large, regenerable)
+data/episodes/**/audio.mp3
+data/episodes/**/audio.wav
+data/episodes/**/audio.m4a
+data/episodes/**/whisper_raw.json
+
+# Keep the directory itself
+!data/episodes/.gitkeep
+
+# Backup/comparison files from tag_one.py
+data/episodes/**/*.bak
+data/episodes/**/*.v[0-9]*.json

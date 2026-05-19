@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-05-19T21:29:59+00:00",
+  "last_updated": "2026-05-19T22:03:47+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -137,13 +137,13 @@
       "title": "Robot Perception and Mask R-CNN",
       "published_at": "2018-08-27T11:00:00+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/2acde001/5003d34e.mp3",
-      "status": "failed",
-      "json_path": null,
-      "processed_at": null,
-      "tagged_at": null,
-      "match_confidence": null,
-      "annotation_count": null,
-      "error": "process (unexpected): [Errno 2] No such file or directory: 'ffmpeg'"
+      "status": "tagged",
+      "json_path": "data/episodes/11/practical-ai-11.json",
+      "processed_at": "2026-05-19T22:03:06+00:00",
+      "tagged_at": "2026-05-19T22:03:47+00:00",
+      "match_confidence": 0.9870622978484039,
+      "annotation_count": 89,
+      "error": null
     },
     "12": {
       "episode_id": 12,

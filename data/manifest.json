@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-05-19T22:53:31+00:00",
+  "last_updated": "2026-05-20T22:58:48+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4570,65 +4570,65 @@
       "title": "Post-Mortem of Anthropic's Claude Code Leak",
       "published_at": "2026-04-09T09:00:00+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/44e59b0b/1ecd61fa.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null
+      "error": "process: No GitHub transcript for episode 352 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-352.md) — the Changelog usually publishes transcripts a few days after the episode"
     },
     "353": {
       "episode_id": 353,
       "title": "Open Source Self-Driving with Comma AI",
       "published_at": "2026-04-16T09:00:00+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/9d157a1b/d3175cb9.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null
+      "error": "process: No GitHub transcript for episode 353 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-353.md) — the Changelog usually publishes transcripts a few days after the episode"
     },
     "354": {
       "episode_id": 354,
       "title": "The mythos of Mythos and Allbirds takes flight to the neocloud",
       "published_at": "2026-04-23T09:00:00+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/b11bd219/8827ba44.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null
+      "error": "process: No GitHub transcript for episode 354 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-354.md) — the Changelog usually publishes transcripts a few days after the episode"
     },
     "355": {
       "episode_id": 355,
       "title": "The Myth of Model Wars: Open vs Closed AI in 2026",
       "published_at": "2026-05-07T09:00:00+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/6095edc5/d370f038.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null
+      "error": "process: No GitHub transcript for episode 355 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-355.md) — the Changelog usually publishes transcripts a few days after the episode"
     },
     "356": {
       "episode_id": 356,
       "title": "U.S. Congressman Beyer on AI challenges facing America and the World",
       "published_at": "2026-05-14T09:00:00+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/9ac73d0a/a5131751.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null
+      "error": "process: No GitHub transcript for episode 356 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-356.md) — the Changelog usually publishes transcripts a few days after the episode"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-05-19T22:03:47+00:00",
+  "last_updated": "2026-05-19T22:53:31+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -59,13 +59,13 @@
       "title": "Detecting planets with deep learning",
       "published_at": "2018-07-16T11:00:00+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/8799f3fe/8ac108a5.mp3",
-      "status": "failed",
-      "json_path": null,
-      "processed_at": null,
-      "tagged_at": null,
-      "match_confidence": null,
-      "annotation_count": null,
-      "error": "process (unexpected): [Errno 2] No such file or directory: 'ffmpeg'"
+      "status": "tagged",
+      "json_path": "data/episodes/5/practical-ai-5.json",
+      "processed_at": "2026-05-19T22:53:00+00:00",
+      "tagged_at": "2026-05-19T22:53:31+00:00",
+      "match_confidence": 0.9912074108965301,
+      "annotation_count": 46,
+      "error": null
     },
     "6": {
       "episode_id": 6,

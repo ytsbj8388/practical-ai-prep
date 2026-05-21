@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-05-21T16:39:34+00:00",
+  "last_updated": "2026-05-21T22:53:02+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4865,56 +4865,56 @@
       "title": "AI policy and the battle for computing power",
       "published_at": "2026-03-09T13:27:19+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/1923dca1/0dd54a72.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 348 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-348.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-24T22:53:02.728698Z"
     },
     "349": {
       "episode_id": 349,
       "title": "Humility in the Age of Agentic Coding",
       "published_at": "2026-03-17T14:29:29+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/7e1ca2c8/3ade85d6.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 349 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-349.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-24T22:53:00.549659Z"
     },
     "350": {
       "episode_id": 350,
       "title": "AI at the Edge is a different operating environment",
       "published_at": "2026-03-25T18:59:43+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/ea7694a9/378817af.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 350 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-350.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-24T22:52:58.339444Z"
     },
     "351": {
       "episode_id": 351,
       "title": "Agentic Coding and the Economics of Open Source",
       "published_at": "2026-04-02T09:00:00+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/7d8e0293/0bbed6a2.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 351 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-351.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-24T22:52:56.180933Z"
     },
     "352": {
       "episode_id": 352,
@@ -4991,14 +4991,14 @@
       "title": "Hermes Agent: Agents that grow with you",
       "published_at": "2026-05-21T09:00:00+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/451da102/629a058c.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 357 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-357.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-24T22:52:53.995585Z"
     }
   }
 }

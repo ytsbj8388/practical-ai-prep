@@ -20,6 +20,17 @@ TRANSCRIPT_URL_TEMPLATE = (
     "practicalai/practical-ai-{episode_id}.md"
 )
 
+
+class TranscriptNotPublishedError(LookupError):
+    """Raised when GitHub returns 404 for the episode's transcript.
+
+    Distinct from generic `LookupError` so callers (main.py) can schedule a
+    soft retry — the Changelog usually publishes transcripts a few days after the
+    audio drops, so a 404 today is often resolvable a few days later. Inherits
+    from `LookupError` to stay backward-compatible with callers that catch
+    `LookupError` for the older "permanent missing transcript" semantics.
+    """
+
 _SPEAKER_RE = re.compile(r"^\*\*([^*:]+?):\*\*\s*")
 _ESCAPED_BRACKET_RE = re.compile(r"\\\[[^\]]*\\\]")
 _PLAIN_TIME_MARKER_RE = re.compile(r"\[\d{1,2}:\d{2}(?::\d{2})?\]")
@@ -148,7 +159,7 @@ def fetch_transcript(episode_id: int) -> list[TranscriptTurn]:
     url = transcript_url(episode_id)
     resp = requests.get(url, timeout=30)
     if resp.status_code == 404:
-        raise LookupError(
+        raise TranscriptNotPublishedError(
             f"No GitHub transcript for episode {episode_id} (404 at {url}) — "
             "the Changelog usually publishes transcripts a few days after the episode"
         )

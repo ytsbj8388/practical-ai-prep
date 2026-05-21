@@ -36,6 +36,14 @@ on:
         description: 'USD ceiling for Claude tagging (default 5.00)'
         required: false
         default: '5.00'
+      order:
+        description: 'Episode order for daily/backfill (ignored by retry)'
+        required: false
+        default: 'oldest'
+        type: choice
+        options:
+          - oldest
+          - newest
 
 permissions:
   contents: write  # auto-commit data/ changes
@@ -81,6 +89,7 @@ jobs:
           MODE="${{ github.event.inputs.mode || 'daily' }}"
           LIMIT="${{ github.event.inputs.limit }}"
           MAX_COST="${{ github.event.inputs.max_cost || '5.00' }}"
+          ORDER="${{ github.event.inputs.order }}"
 
           # Backfill requires an explicit --limit; bail loudly if missing.
           if [ "$MODE" = "backfill" ] && [ -z "$LIMIT" ]; then
@@ -91,6 +100,10 @@ jobs:
           ARGS=("$MODE" "--max-cost" "$MAX_COST")
           if [ -n "$LIMIT" ]; then
             ARGS+=("--limit" "$LIMIT")
+          fi
+          # `retry` subcommand doesn't accept --order; only pass it for the other modes.
+          if [ -n "$ORDER" ] && [ "$MODE" != "retry" ]; then
+            ARGS+=("--order" "$ORDER")
           fi
 
           python -m src.main "${ARGS[@]}"

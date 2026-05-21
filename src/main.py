@@ -23,6 +23,7 @@ import json
 import sys
 import time
 import traceback
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 # Allow `python -m src.main` to import sibling modules without an installed package.
@@ -36,10 +37,16 @@ from dotenv import load_dotenv
 from src import align, rss, storage, tag, transcript
 from src.match import AlignmentQualityError, match as run_match
 from src.schema import Episode
+from src.transcript import TranscriptNotPublishedError
 
 DEFAULT_DAILY_LIMIT = 5
 DEFAULT_RETRY_LIMIT = 10
 DEFAULT_MAX_COST_USD = 5.0
+
+# How long to wait before re-attempting an episode whose transcript was 404.
+# Practical AI publishes weekly; transcripts typically land within a few days.
+# Short interval is cheap — a "wasted" retry is one HTTP GET that 404s again.
+TRANSCRIPT_RETRY_DELAY = timedelta(days=3)
 
 # Skip starting another episode when we're this close to the ceiling. A typical episode
 # tag costs $0.03–$0.10, so a $0.10 floor prevents a half-budgeted episode from getting
@@ -161,8 +168,21 @@ def _process_one_episode(
                 ),
             )
             storage.save_manifest(manifest, manifest_path)
+        except TranscriptNotPublishedError as e:
+            # Soft failure — transcript not on GitHub yet. Schedule a retry; daily
+            # mode will pick this record up again once retry_after elapses.
+            retry_at = datetime.now(timezone.utc) + TRANSCRIPT_RETRY_DELAY
+            storage.mark_failed(
+                manifest,
+                episode_id,
+                error=f"process: {e}",
+                retry_after=retry_at,
+            )
+            storage.save_manifest(manifest, manifest_path)
+            return 0.0, "failed"
         except (LookupError, AlignmentQualityError) as e:
-            # Expected, debuggable failures — record the message, move on.
+            # Permanent, debuggable failures (e.g. AlignmentQualityError, RSS
+            # lookup miss) — no retry_after, manual retry mode only.
             storage.mark_failed(manifest, episode_id, error=f"process: {e}")
             storage.save_manifest(manifest, manifest_path)
             return 0.0, "failed"
@@ -283,12 +303,19 @@ def _candidates_for(
     manifest: storage.Manifest, mode: str, *, order: str
 ) -> list[int]:
     if mode == "retry":
+        # `retry` is the manual escape hatch — process every failure regardless
+        # of retry_after.
         return sorted(storage.list_by_status(manifest, "failed"), reverse=True)
-    # daily / backfill: anything that still has work to do
+    # daily / backfill: pending + processed (work that hasn't started or hasn't
+    # been tagged yet), plus failed records whose retry_after has elapsed
+    # (soft retries — typically transcripts that have since been published).
     todo = storage.list_by_status(manifest, "pending") + storage.list_by_status(
         manifest, "processed"
     )
-    return sorted(todo, reverse=(order == "newest"))
+    todo += storage.list_failed_ready_to_retry(manifest, datetime.now(timezone.utc))
+    # de-dupe just in case (shouldn't happen but cheap)
+    todo = sorted(set(todo), reverse=(order == "newest"))
+    return todo
 
 
 # ---------------------------------------------------------------------------

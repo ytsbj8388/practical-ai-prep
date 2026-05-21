@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import AwareDatetime, BaseModel, ConfigDict, Field
 
 MANIFEST_VERSION = 1
 DEFAULT_MANIFEST_PATH = Path("data/manifest.json")
@@ -39,6 +39,10 @@ class EpisodeRecord(BaseModel):
     match_confidence: float | None = None
     annotation_count: int | None = None
     error: str | None = None
+    # When set, the orchestrator will pick this `failed` record up again in
+    # `daily` / `backfill` mode once `now >= retry_after`. Only used for soft
+    # failures (transcript not yet published); permanent failures leave this None.
+    retry_after: AwareDatetime | None = None
 
 
 class Manifest(BaseModel):
@@ -127,6 +131,7 @@ def mark_processed(
     rec.match_confidence = match_confidence
     rec.processed_at = _utcnow()
     rec.error = None
+    rec.retry_after = None  # successful transition clears any pending retry window
 
 
 def mark_tagged(
@@ -140,12 +145,22 @@ def mark_tagged(
     rec.tagged_at = _utcnow()
     rec.annotation_count = annotation_count
     rec.error = None
+    rec.retry_after = None
 
 
-def mark_failed(manifest: Manifest, episode_id: int, error: str) -> None:
+def mark_failed(
+    manifest: Manifest,
+    episode_id: int,
+    error: str,
+    *,
+    retry_after: datetime | None = None,
+) -> None:
+    """Mark `failed`. Pass `retry_after` to schedule a soft retry (daily mode will
+    pick the record back up once now ≥ retry_after). Omit for permanent failures."""
     rec = _require(manifest, episode_id)
     rec.status = "failed"
     rec.error = error
+    rec.retry_after = retry_after
 
 
 def list_by_status(manifest: Manifest, status: EpisodeStatus) -> list[int]:
@@ -161,6 +176,17 @@ def list_pending(manifest: Manifest) -> list[int]:
 
 def list_tagged(manifest: Manifest) -> list[int]:
     return list_by_status(manifest, "tagged")
+
+
+def list_failed_ready_to_retry(manifest: Manifest, now: datetime) -> list[int]:
+    """Failed episodes whose `retry_after` has elapsed. `now` must be tz-aware."""
+    return sorted(
+        int(k)
+        for k, v in manifest.episodes.items()
+        if v.status == "failed"
+        and v.retry_after is not None
+        and v.retry_after <= now
+    )
 
 
 # ---------------------------------------------------------------------------

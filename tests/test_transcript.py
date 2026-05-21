@@ -16,9 +16,15 @@ first name is also Chris.
 
 from __future__ import annotations
 
+from unittest.mock import patch
+
 import pytest
 
-from src.transcript import _canonicalize_speakers
+from src.transcript import (
+    TranscriptNotPublishedError,
+    _canonicalize_speakers,
+    fetch_transcript,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -103,3 +109,33 @@ def test_first_name_match_is_case_insensitive():
         "DANIEL": "Daniel Whitenack",
         "Daniel Whitenack": "Daniel Whitenack",
     }
+
+
+# ---------------------------------------------------------------------------
+# TranscriptNotPublishedError on 404
+# ---------------------------------------------------------------------------
+
+
+class _FakeResponse:
+    """Minimal stand-in for requests.Response — only what fetch_transcript touches."""
+
+    def __init__(self, status_code: int, text: str = ""):
+        self.status_code = status_code
+        self.text = text
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise AssertionError(
+                f"raise_for_status() called on {self.status_code}; "
+                "fetch_transcript should have branched on the status code earlier"
+            )
+
+
+def test_404_raises_transcript_not_published():
+    """404 yields the soft-retry exception, not a bare LookupError."""
+    with patch("src.transcript.requests.get", return_value=_FakeResponse(404)):
+        with pytest.raises(TranscriptNotPublishedError) as excinfo:
+            fetch_transcript(9999)
+    # Must remain a LookupError subclass for backward compat with existing handlers.
+    assert isinstance(excinfo.value, LookupError)
+    assert "9999" in str(excinfo.value), "error should name the episode for debugging"

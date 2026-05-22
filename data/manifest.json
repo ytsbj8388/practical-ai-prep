@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-05-21T22:53:02+00:00",
+  "last_updated": "2026-05-22T21:51:49+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4795,70 +4795,70 @@
       "title": "Controlling AI Models from the Inside",
       "published_at": "2026-01-20T19:10:20+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/df33214d/9c2dd1a8.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 343 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-343.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-25T21:51:49.153757Z"
     },
     "344": {
       "episode_id": 344,
       "title": "How is AI shaping democracy?",
       "published_at": "2026-01-27T13:58:25+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/0d2fa64e/d7cf6a15.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 344 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-344.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-25T21:51:46.452101Z"
     },
     "345": {
       "episode_id": 345,
       "title": "Inside an AI-Run Company",
       "published_at": "2026-02-02T19:00:22+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/bc10d952/62cf79c5.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 345 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-345.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-25T21:51:43.839479Z"
     },
     "346": {
       "episode_id": 346,
       "title": "AI incidents, audits, and the limits of benchmarks",
       "published_at": "2026-02-13T15:57:56+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/1b8e65f4/5f10a20b.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 346 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-346.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-25T21:51:41.231273Z"
     },
     "347": {
       "episode_id": 347,
       "title": "Cognitive Synthesis and Neural Athletes",
       "published_at": "2026-02-18T13:57:44+00:00",
       "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/4aaf31b4/4eefa767.mp3",
-      "status": "pending",
+      "status": "failed",
       "json_path": null,
       "processed_at": null,
       "tagged_at": null,
       "match_confidence": null,
       "annotation_count": null,
-      "error": null,
-      "retry_after": null
+      "error": "process: No GitHub transcript for episode 347 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-347.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-25T21:51:38.572218Z"
     },
     "348": {
       "episode_id": 348,

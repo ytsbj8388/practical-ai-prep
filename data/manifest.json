@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-05-27T23:06:46+00:00",
+  "last_updated": "2026-05-28T23:04:13+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4886,7 +4886,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 349 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-349.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-05-28T22:00:21.350551Z"
+      "retry_after": "2026-05-31T23:04:13.408844Z"
     },
     "350": {
       "episode_id": 350,
@@ -4900,7 +4900,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 350 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-350.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-05-28T22:00:18.847043Z"
+      "retry_after": "2026-05-31T23:04:10.792315Z"
     },
     "351": {
       "episode_id": 351,
@@ -4914,7 +4914,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 351 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-351.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-05-28T22:00:16.351671Z"
+      "retry_after": "2026-05-31T23:04:08.177953Z"
     },
     "352": {
       "episode_id": 352,
@@ -4998,7 +4998,21 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 357 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-357.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-05-28T22:00:13.826495Z"
+      "retry_after": "2026-05-31T23:04:05.603190Z"
+    },
+    "358": {
+      "episode_id": 358,
+      "title": "Rebooting Enterprise AI with MCP and Kubernetes",
+      "published_at": "2026-05-28T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/d76e02d5/e934139b.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 358 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-358.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-05-31T23:04:02.992452Z"
     }
   }
 }

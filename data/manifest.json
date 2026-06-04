@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-06-04T00:18:30+00:00",
+  "last_updated": "2026-06-04T22:57:07+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4760,7 +4760,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 340 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-340.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-02T21:41:08.883407Z"
+      "retry_after": "2026-06-07T22:57:07.550341Z"
     },
     "341": {
       "episode_id": 341,
@@ -4774,7 +4774,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 341 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-341.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-02T21:41:06.534590Z"
+      "retry_after": "2026-06-07T22:57:04.967970Z"
     },
     "342": {
       "episode_id": 342,
@@ -4788,7 +4788,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 342 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-342.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-02T21:41:04.155900Z"
+      "retry_after": "2026-06-07T22:57:02.397943Z"
     },
     "343": {
       "episode_id": 343,
@@ -4802,7 +4802,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 343 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-343.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-02T21:41:01.745125Z"
+      "retry_after": "2026-06-07T22:56:59.796557Z"
     },
     "344": {
       "episode_id": 344,
@@ -5013,6 +5013,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 358 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-358.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-06-04T23:46:46.800670Z"
+    },
+    "359": {
+      "episode_id": 359,
+      "title": "Breaking down the 2026 Stanford AI Index Report",
+      "published_at": "2026-06-04T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/302b36f8/d474795e.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 359 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-359.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-06-07T22:56:57.205150Z"
     }
   }
 }

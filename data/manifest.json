@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-06-10T23:18:45+00:00",
+  "last_updated": "2026-06-11T23:13:38+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4914,7 +4914,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 351 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-351.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-11T23:05:44.357488Z"
+      "retry_after": "2026-06-14T23:13:38.566519Z"
     },
     "352": {
       "episode_id": 352,
@@ -4998,7 +4998,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 357 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-357.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-11T23:05:42.174728Z"
+      "retry_after": "2026-06-14T23:13:35.996182Z"
     },
     "358": {
       "episode_id": 358,
@@ -5012,7 +5012,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 358 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-358.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-11T23:05:39.975981Z"
+      "retry_after": "2026-06-14T23:13:33.420545Z"
     },
     "359": {
       "episode_id": 359,
@@ -5026,7 +5026,21 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 359 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-359.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-11T23:05:37.719699Z"
+      "retry_after": "2026-06-14T23:13:30.829080Z"
+    },
+    "360": {
+      "episode_id": 360,
+      "title": "Zero Trust for AI Agents",
+      "published_at": "2026-06-11T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/5c1a087d/89d77a53.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 360 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-360.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-06-14T23:13:28.220872Z"
     }
   }
 }

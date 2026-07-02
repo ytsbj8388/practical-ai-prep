@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-01T20:06:53+00:00",
+  "last_updated": "2026-07-02T19:44:18+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4802,7 +4802,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 343 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-343.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-28T20:13:51.794296Z"
+      "retry_after": "2026-07-05T19:44:18.368672Z"
     },
     "344": {
       "episode_id": 344,
@@ -4816,7 +4816,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 344 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-344.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-28T20:13:48.980027Z"
+      "retry_after": "2026-07-05T19:44:15.798125Z"
     },
     "345": {
       "episode_id": 345,
@@ -4830,7 +4830,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 345 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-345.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-28T20:13:46.218749Z"
+      "retry_after": "2026-07-05T19:44:13.254812Z"
     },
     "346": {
       "episode_id": 346,
@@ -4844,7 +4844,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 346 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-346.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-06-30T19:40:34.943464Z"
+      "retry_after": "2026-07-05T19:44:10.715535Z"
     },
     "347": {
       "episode_id": 347,
@@ -5055,6 +5055,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 361 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-361.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-07-02T20:11:07.540687Z"
+    },
+    "362": {
+      "episode_id": 362,
+      "title": "Image Generation and Visual Intelligence with Black Forest Labs",
+      "published_at": "2026-07-02T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/6d8dad5f/f006d8d2.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 362 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-362.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-07-05T19:44:08.169635Z"
     }
   }
 }

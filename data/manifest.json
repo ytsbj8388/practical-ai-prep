@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-08T19:47:05+00:00",
+  "last_updated": "2026-07-09T19:59:23+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4816,7 +4816,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 344 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-344.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-05T19:44:15.798125Z"
+      "retry_after": "2026-07-12T19:59:23.838320Z"
     },
     "345": {
       "episode_id": 345,
@@ -4830,7 +4830,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 345 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-345.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-05T19:44:13.254812Z"
+      "retry_after": "2026-07-12T19:59:22.046018Z"
     },
     "346": {
       "episode_id": 346,
@@ -4844,7 +4844,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 346 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-346.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-05T19:44:10.715535Z"
+      "retry_after": "2026-07-12T19:59:20.218194Z"
     },
     "347": {
       "episode_id": 347,
@@ -4858,7 +4858,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 347 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-347.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-07T19:26:19.006487Z"
+      "retry_after": "2026-07-12T19:59:18.440686Z"
     },
     "348": {
       "episode_id": 348,
@@ -5069,6 +5069,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 362 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-362.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-07-09T20:09:46.131407Z"
+    },
+    "363": {
+      "episode_id": 363,
+      "title": "Building Durable AI Agents",
+      "published_at": "2026-07-09T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/facb92e2/33d1bc96.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 363 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-363.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-07-12T19:59:16.579629Z"
     }
   }
 }

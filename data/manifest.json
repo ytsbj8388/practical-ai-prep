@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-16T19:24:20+00:00",
+  "last_updated": "2026-07-17T19:21:56+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4830,7 +4830,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 345 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-345.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-16T19:40:28.006529Z"
+      "retry_after": "2026-07-20T19:21:56.423266Z"
     },
     "346": {
       "episode_id": 346,
@@ -4844,7 +4844,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 346 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-346.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-16T19:40:25.806828Z"
+      "retry_after": "2026-07-20T19:21:53.842448Z"
     },
     "347": {
       "episode_id": 347,
@@ -4858,7 +4858,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 347 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-347.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-16T19:40:23.641875Z"
+      "retry_after": "2026-07-20T19:21:51.200383Z"
     },
     "348": {
       "episode_id": 348,
@@ -5082,7 +5082,21 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 363 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-363.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-16T19:40:21.380548Z"
+      "retry_after": "2026-07-20T19:21:48.595244Z"
+    },
+    "364": {
+      "episode_id": 364,
+      "title": "The Future of AI Infrastructure with CoreWeave",
+      "published_at": "2026-07-17T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/01c30767/eed885fc.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 364 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-364.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-07-20T19:21:45.974770Z"
     }
   }
 }

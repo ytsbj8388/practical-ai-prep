@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-22T19:38:41+00:00",
+  "last_updated": "2026-07-23T19:37:28+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4844,7 +4844,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 346 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-346.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-20T19:21:53.842448Z"
+      "retry_after": "2026-07-26T19:37:28.590087Z"
     },
     "347": {
       "episode_id": 347,
@@ -4858,7 +4858,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 347 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-347.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-20T19:21:51.200383Z"
+      "retry_after": "2026-07-26T19:37:26.427399Z"
     },
     "348": {
       "episode_id": 348,
@@ -4872,7 +4872,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 348 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-348.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-19T19:24:20.079862Z"
+      "retry_after": "2026-07-26T19:37:24.236780Z"
     },
     "349": {
       "episode_id": 349,
@@ -4886,7 +4886,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 349 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-349.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-19T19:24:17.881879Z"
+      "retry_after": "2026-07-26T19:37:22.048575Z"
     },
     "350": {
       "episode_id": 350,
@@ -5097,6 +5097,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 364 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-364.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-07-23T19:52:42.587680Z"
+    },
+    "365": {
+      "episode_id": 365,
+      "title": "Surviving the New Economics of a Post-Agentic World",
+      "published_at": "2026-07-23T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/8a2e4fc0/e08735dd.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 365 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-365.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-07-26T19:37:19.890279Z"
     }
   }
 }

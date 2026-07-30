@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-29T19:28:53+00:00",
+  "last_updated": "2026-07-30T19:45:29+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4858,7 +4858,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 347 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-347.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-26T19:37:26.427399Z"
+      "retry_after": "2026-08-02T19:45:29.858566Z"
     },
     "348": {
       "episode_id": 348,
@@ -4872,7 +4872,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 348 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-348.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-26T19:37:24.236780Z"
+      "retry_after": "2026-08-02T19:45:27.674274Z"
     },
     "349": {
       "episode_id": 349,
@@ -4886,7 +4886,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 349 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-349.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-26T19:37:22.048575Z"
+      "retry_after": "2026-08-02T19:45:25.460013Z"
     },
     "350": {
       "episode_id": 350,
@@ -4900,7 +4900,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 350 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-350.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-07-27T19:42:14.410862Z"
+      "retry_after": "2026-08-02T19:45:23.288614Z"
     },
     "351": {
       "episode_id": 351,
@@ -5111,6 +5111,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 365 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-365.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-07-30T19:46:19.623959Z"
+    },
+    "366": {
+      "episode_id": 366,
+      "title": "Reconstructing how OpenAI agents attacked Hugging Face",
+      "published_at": "2026-07-30T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/9d74230b/ed549250.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 366 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-366.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-08-02T19:45:20.985509Z"
     }
   }
 }

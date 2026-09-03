@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-09-02T20:55:54+00:00",
+  "last_updated": "2026-09-03T20:53:49+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4914,7 +4914,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 351 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-351.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-02T20:55:03.425020Z"
+      "retry_after": "2026-09-06T20:53:49.831454Z"
     },
     "352": {
       "episode_id": 352,
@@ -4928,7 +4928,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 352 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-352.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-02T20:55:01.254458Z"
+      "retry_after": "2026-09-06T20:53:46.856239Z"
     },
     "353": {
       "episode_id": 353,
@@ -4942,7 +4942,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 353 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-353.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-02T20:54:59.242586Z"
+      "retry_after": "2026-09-06T20:53:43.948274Z"
     },
     "354": {
       "episode_id": 354,
@@ -4956,7 +4956,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 354 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-354.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-02T20:54:57.063262Z"
+      "retry_after": "2026-09-06T20:53:41.034268Z"
     },
     "355": {
       "episode_id": 355,
@@ -5167,6 +5167,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 369 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-369.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-09-04T20:57:04.179116Z"
+    },
+    "370": {
+      "episode_id": 370,
+      "title": "Less about Models; More about Architecture",
+      "published_at": "2026-09-03T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/ec79b4ac/efba87b4.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 370 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-370.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-09-06T20:53:38.126725Z"
     }
   }
 }

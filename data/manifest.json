@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-09-16T21:12:20+00:00",
+  "last_updated": "2026-09-17T21:14:40+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4942,7 +4942,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 353 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-353.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-13T20:45:47.952153Z"
+      "retry_after": "2026-09-20T21:14:40.584836Z"
     },
     "354": {
       "episode_id": 354,
@@ -4956,7 +4956,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 354 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-354.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-13T20:45:44.837267Z"
+      "retry_after": "2026-09-20T21:14:37.911301Z"
     },
     "355": {
       "episode_id": 355,
@@ -4970,7 +4970,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 355 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-355.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-13T20:45:41.717430Z"
+      "retry_after": "2026-09-20T21:14:34.996405Z"
     },
     "356": {
       "episode_id": 356,
@@ -4984,7 +4984,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 356 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-356.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-16T20:39:18.679269Z"
+      "retry_after": "2026-09-20T21:14:32.355929Z"
     },
     "357": {
       "episode_id": 357,
@@ -5195,6 +5195,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 371 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-371.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-09-17T21:45:17.718270Z"
+    },
+    "372": {
+      "episode_id": 372,
+      "title": "How to get discovered in AI search",
+      "published_at": "2026-09-17T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/66185604/d94b5158.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 372 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-372.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-09-20T21:14:29.709829Z"
     }
   }
 }

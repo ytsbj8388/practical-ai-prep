@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-09-23T21:25:22+00:00",
+  "last_updated": "2026-09-24T21:26:56+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4956,7 +4956,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 354 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-354.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-20T21:14:37.911301Z"
+      "retry_after": "2026-09-27T21:26:56.495660Z"
     },
     "355": {
       "episode_id": 355,
@@ -4970,7 +4970,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 355 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-355.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-20T21:14:34.996405Z"
+      "retry_after": "2026-09-27T21:26:53.396961Z"
     },
     "356": {
       "episode_id": 356,
@@ -4984,7 +4984,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 356 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-356.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-20T21:14:32.355929Z"
+      "retry_after": "2026-09-27T21:26:50.307954Z"
     },
     "357": {
       "episode_id": 357,
@@ -4998,7 +4998,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 357 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-357.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-23T20:39:56.819626Z"
+      "retry_after": "2026-09-27T21:26:47.181629Z"
     },
     "358": {
       "episode_id": 358,
@@ -5209,6 +5209,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 372 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-372.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-09-24T21:56:22.887914Z"
+    },
+    "373": {
+      "episode_id": 373,
+      "title": "From AGENTS.md to Enterprise Deployment",
+      "published_at": "2026-09-24T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/74934e48/4c629c07.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 373 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-373.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-09-27T21:26:44.098172Z"
     }
   }
 }

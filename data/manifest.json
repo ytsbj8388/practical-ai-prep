@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-09-30T22:09:04+00:00",
+  "last_updated": "2026-10-01T22:36:03+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4970,7 +4970,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 355 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-355.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-27T21:26:53.396961Z"
+      "retry_after": "2026-10-04T22:36:03.196432Z"
     },
     "356": {
       "episode_id": 356,
@@ -4984,7 +4984,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 356 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-356.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-27T21:26:50.307954Z"
+      "retry_after": "2026-10-04T22:36:00.681324Z"
     },
     "357": {
       "episode_id": 357,
@@ -4998,7 +4998,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 357 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-357.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-27T21:26:47.181629Z"
+      "retry_after": "2026-10-04T22:35:58.159585Z"
     },
     "358": {
       "episode_id": 358,
@@ -5012,7 +5012,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 358 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-358.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-09-30T21:14:55.024572Z"
+      "retry_after": "2026-10-04T22:35:55.588772Z"
     },
     "359": {
       "episode_id": 359,
@@ -5223,6 +5223,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 373 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-373.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-10-01T23:10:29.986983Z"
+    },
+    "374": {
+      "episode_id": 374,
+      "title": "Open models and the future of Physical AI with NVIDIA",
+      "published_at": "2026-10-01T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/217445d3/e1eb0b6a.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 374 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-374.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-10-04T22:35:53.075510Z"
     }
   }
 }

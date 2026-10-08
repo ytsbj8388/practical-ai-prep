@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-10-07T23:05:22+00:00",
+  "last_updated": "2026-10-08T23:13:25+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -4984,7 +4984,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 356 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-356.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-04T22:36:00.681324Z"
+      "retry_after": "2026-10-11T23:13:25.772141Z"
     },
     "357": {
       "episode_id": 357,
@@ -4998,7 +4998,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 357 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-357.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-04T22:35:58.159585Z"
+      "retry_after": "2026-10-11T23:13:22.590991Z"
     },
     "358": {
       "episode_id": 358,
@@ -5012,7 +5012,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 358 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-358.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-04T22:35:55.588772Z"
+      "retry_after": "2026-10-11T23:13:19.377191Z"
     },
     "359": {
       "episode_id": 359,
@@ -5026,7 +5026,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 359 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-359.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-07T21:12:59.433358Z"
+      "retry_after": "2026-10-11T23:13:16.283559Z"
     },
     "360": {
       "episode_id": 360,
@@ -5237,6 +5237,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 374 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-374.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-10-08T23:59:08.894628Z"
+    },
+    "375": {
+      "episode_id": 375,
+      "title": "Narrative intelligence and the human advantage",
+      "published_at": "2026-10-08T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/f2fcb677/ee0419b3.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 375 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-375.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-10-11T23:13:13.140493Z"
     }
   }
 }

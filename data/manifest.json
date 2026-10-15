@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-10-14T21:32:28+00:00",
+  "last_updated": "2026-10-15T21:14:08+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -5054,7 +5054,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 361 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-361.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-14T21:46:57.469943Z"
+      "retry_after": "2026-10-18T21:14:08.480410Z"
     },
     "362": {
       "episode_id": 362,
@@ -5068,7 +5068,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 362 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-362.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-14T21:46:54.828267Z"
+      "retry_after": "2026-10-18T21:14:06.594660Z"
     },
     "363": {
       "episode_id": 363,
@@ -5082,7 +5082,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 363 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-363.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-14T21:46:52.162701Z"
+      "retry_after": "2026-10-18T21:14:04.723336Z"
     },
     "364": {
       "episode_id": 364,
@@ -5096,7 +5096,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 364 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-364.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-14T21:46:49.550063Z"
+      "retry_after": "2026-10-18T21:14:02.747061Z"
     },
     "365": {
       "episode_id": 365,
@@ -5251,6 +5251,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 375 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-375.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-10-16T00:30:15.852189Z"
+    },
+    "376": {
+      "episode_id": 376,
+      "title": "Education is Failing our Students in this AI-Driven World",
+      "published_at": "2026-10-15T13:32:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/4f81adfa/85758bdc.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 376 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-376.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-10-18T21:14:00.876723Z"
     }
   }
 }

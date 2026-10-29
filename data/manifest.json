@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-10-28T22:28:38+00:00",
+  "last_updated": "2026-10-29T22:42:51+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -5236,7 +5236,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 374 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-374.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-29T22:35:30.186578Z"
+      "retry_after": "2026-11-01T22:42:51.659152Z"
     },
     "375": {
       "episode_id": 375,
@@ -5250,7 +5250,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 375 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-375.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-29T22:35:28.523877Z"
+      "retry_after": "2026-11-01T22:42:48.621022Z"
     },
     "376": {
       "episode_id": 376,
@@ -5264,7 +5264,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 376 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-376.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-29T22:35:26.897262Z"
+      "retry_after": "2026-11-01T22:42:45.598652Z"
     },
     "377": {
       "episode_id": 377,
@@ -5278,7 +5278,21 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 377 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-377.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-10-29T22:35:25.108939Z"
+      "retry_after": "2026-11-01T22:42:42.580396Z"
+    },
+    "378": {
+      "episode_id": 378,
+      "title": "Abundant Intelligence at the Midwest AI Summit",
+      "published_at": "2026-10-29T09:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/37a0c3e9/eecd5cc2.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 378 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-378.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-11-01T22:42:39.513447Z"
     }
   }
 }

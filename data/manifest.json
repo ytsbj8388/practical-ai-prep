@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-11-06T23:02:00+00:00",
+  "last_updated": "2026-11-07T21:42:48+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -5166,7 +5166,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 369 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-369.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-06T23:08:20.970022Z"
+      "retry_after": "2026-11-10T21:42:48.521365Z"
     },
     "370": {
       "episode_id": 370,
@@ -5180,7 +5180,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 370 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-370.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-06T23:08:18.099922Z"
+      "retry_after": "2026-11-10T21:42:45.649363Z"
     },
     "371": {
       "episode_id": 371,
@@ -5194,7 +5194,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 371 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-371.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-06T23:08:15.227884Z"
+      "retry_after": "2026-11-10T21:42:42.759863Z"
     },
     "372": {
       "episode_id": 372,
@@ -5208,7 +5208,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 372 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-372.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-06T23:08:12.349003Z"
+      "retry_after": "2026-11-10T21:42:39.836546Z"
     },
     "373": {
       "episode_id": 373,
@@ -5222,7 +5222,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 373 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-373.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-06T23:08:09.449203Z"
+      "retry_after": "2026-11-10T21:42:36.987458Z"
     },
     "374": {
       "episode_id": 374,

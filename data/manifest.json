@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T23:28:46+00:00",
+  "last_updated": "2026-11-13T23:29:43+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -5264,7 +5264,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 376 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-376.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-13T01:26:21.483846Z"
+      "retry_after": "2026-11-16T23:29:43.183708Z"
     },
     "377": {
       "episode_id": 377,
@@ -5278,7 +5278,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 377 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-377.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-13T01:26:19.485539Z"
+      "retry_after": "2026-11-16T23:29:41.042328Z"
     },
     "378": {
       "episode_id": 378,
@@ -5292,7 +5292,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 378 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-378.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-13T01:26:17.405529Z"
+      "retry_after": "2026-11-16T23:29:38.916822Z"
     },
     "379": {
       "episode_id": 379,
@@ -5306,7 +5306,21 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 379 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-379.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-13T01:26:15.398693Z"
+      "retry_after": "2026-11-16T23:29:36.683047Z"
+    },
+    "380": {
+      "episode_id": 380,
+      "title": "Implementing Federated Learning to enhance Agentic AI",
+      "published_at": "2026-11-13T17:59:46+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/58a69653/1bd19fd9.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 380 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-380.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-11-16T23:29:34.584403Z"
     }
   }
 }

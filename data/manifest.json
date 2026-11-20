@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-11-19T00:11:18+00:00",
+  "last_updated": "2026-11-20T00:33:26+00:00",
   "episodes": {
     "1": {
       "episode_id": 1,
@@ -5068,7 +5068,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 362 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-362.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-15T23:28:43.178671Z"
+      "retry_after": "2026-11-23T00:33:26.298992Z"
     },
     "363": {
       "episode_id": 363,
@@ -5082,7 +5082,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 363 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-363.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-15T23:28:41.490520Z"
+      "retry_after": "2026-11-23T00:33:23.436098Z"
     },
     "364": {
       "episode_id": 364,
@@ -5096,7 +5096,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 364 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-364.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-15T23:28:39.813736Z"
+      "retry_after": "2026-11-23T00:33:20.560016Z"
     },
     "365": {
       "episode_id": 365,
@@ -5110,7 +5110,7 @@
       "match_confidence": null,
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 365 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-365.md) — the Changelog usually publishes transcripts a few days after the episode",
-      "retry_after": "2026-11-15T00:26:25.960409Z"
+      "retry_after": "2026-11-23T00:33:17.693018Z"
     },
     "366": {
       "episode_id": 366,
@@ -5321,6 +5321,20 @@
       "annotation_count": null,
       "error": "process: No GitHub transcript for episode 380 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-380.md) — the Changelog usually publishes transcripts a few days after the episode",
       "retry_after": "2026-11-20T01:49:38.404159Z"
+    },
+    "381": {
+      "episode_id": 381,
+      "title": "Building Human-Centered AI",
+      "published_at": "2026-11-19T10:00:00+00:00",
+      "audio_url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/bb4dad17/16dab0bd.mp3",
+      "status": "failed",
+      "json_path": null,
+      "processed_at": null,
+      "tagged_at": null,
+      "match_confidence": null,
+      "annotation_count": null,
+      "error": "process: No GitHub transcript for episode 381 (404 at https://raw.githubusercontent.com/thechangelog/transcripts/master/practicalai/practical-ai-381.md) — the Changelog usually publishes transcripts a few days after the episode",
+      "retry_after": "2026-11-23T00:33:14.832057Z"
     }
   }
 }
